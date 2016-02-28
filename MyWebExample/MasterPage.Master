@@ -26,11 +26,17 @@
      <div class="wrapper">
          <div class="menu">
              <ul>
-                 <li><a href="Default.aspx">Home</a></li>
-                 <li><a href="Category.aspx">Category</a></li>
-                 <li><a href="#">Contact US</a></li>
-                 <li><a href="#">About US</a></li>
+                 <li><a href="Default.aspx">Principal</a></li>
+                 <li><a href="Category.aspx">Crear Base de datos</a></li>
+                 <li><a href="#">Crear Tabla</a></li>
+                 <li><a href="#">Crear relaciones</a></li>
              </ul>
+             <div class="pull-right">
+             <ul>
+                <li>
+                    <asp:Button Text="Cerrar Sesion" CssClass="btn btn-primary"  runat="server" OnClick="Unnamed1_Click" /></li>
+             </ul>     
+            </div>
          </div>
          <div class="clear"></div>
          <div class="content">

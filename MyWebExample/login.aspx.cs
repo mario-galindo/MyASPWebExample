@@ -21,6 +21,7 @@ namespace MyWebExample
 
             if ((user == "sa") && (pass == "123"))
             {
+                Session["USER_ID"] = user;
                 Response.Redirect("Default.aspx");
             }
             else

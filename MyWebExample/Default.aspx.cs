@@ -11,7 +11,13 @@ namespace MyWebExample
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["USER_ID"] != null)
+            {
+                //Nothing;
+            }
+            else {
+                Response.Redirect("login.aspx");
+            }
         }
     }
 }
