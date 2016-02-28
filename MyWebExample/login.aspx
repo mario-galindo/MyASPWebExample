@@ -48,7 +48,7 @@
 
                             <div class="form-group last">
                                 <div class="col-sm-offset-1 col-sm-9 text_center">
-                                   <asp:Button Text="Conectar" CssClass="btn btn-success btn-sm" runat="server" />
+                                   <asp:Button Text="Conectar" CssClass="btn btn-success btn-sm" runat="server" OnClick="Unnamed3_Click" />
                                 </div>
                             </div>
 
