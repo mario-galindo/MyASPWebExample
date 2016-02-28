@@ -1,0 +1,6 @@
+E:\Proyectos ASP Ejemplos\MyWebExample\MyWebExample\bin\MyWebExample.dll.config
+E:\Proyectos ASP Ejemplos\MyWebExample\MyWebExample\bin\MyWebExample.dll
+E:\Proyectos ASP Ejemplos\MyWebExample\MyWebExample\bin\MyWebExample.pdb
+E:\Proyectos ASP Ejemplos\MyWebExample\MyWebExample\obj\Debug\MyWebExample.dll
+E:\Proyectos ASP Ejemplos\MyWebExample\MyWebExample\obj\Debug\MyWebExample.pdb
+E:\Proyectos ASP Ejemplos\MyWebExample\MyWebExample\obj\Debug\MyWebExample.csprojResolveAssemblyReference.cache
