@@ -13,5 +13,18 @@ namespace MyWebExample
         {
 
         }
+
+        protected void Unnamed3_Click(object sender, EventArgs e)
+        {
+            int cantidad_Controls = Convert.ToInt32(txtColumnas.Text);
+
+            for (int i = 0; i < cantidad_Controls; i++)
+            {
+                PlaceHolder1.Controls.Add(new LiteralControl("<input type='text' class='form-control'/>"));
+                PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
+            }
+
+           
+        }
     }
 }

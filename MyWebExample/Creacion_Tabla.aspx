@@ -27,13 +27,16 @@
                 Nombre:<asp:TextBox CssClass="form-control" runat="server" />
             </div>
             <div class="col-xs-3">
-                Numero de columnas:<asp:TextBox CssClass="form-control" type="number" runat="server" />
+                Numero de columnas:<asp:TextBox ID="txtColumnas" CssClass="form-control" type="number" runat="server" />
             </div>
             <div class="col-xs-3">
             <span class="form-group">
-                <asp:Button Text="Ir" CssClass="btn btn-primary" runat="server" />
+                <asp:Button Text="Ir" CssClass="btn btn-primary" runat="server" OnClick="Unnamed3_Click" />
             </span>
             </div>
+           <div class="col-xs-3">
+            <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+           </div>
         </div>
         
     </div>
