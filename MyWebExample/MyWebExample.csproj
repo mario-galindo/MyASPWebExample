@@ -61,6 +61,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Creacion_Tabla.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="login.aspx" />
     <Content Include="MasterPage.Master" />
@@ -100,6 +101,13 @@
     </Compile>
     <Compile Include="Category.aspx.designer.cs">
       <DependentUpon>Category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Creacion_Tabla.aspx.cs">
+      <DependentUpon>Creacion_Tabla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Creacion_Tabla.aspx.designer.cs">
+      <DependentUpon>Creacion_Tabla.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

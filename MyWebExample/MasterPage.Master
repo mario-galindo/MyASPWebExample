@@ -28,7 +28,7 @@
              <ul>
                  <li><a href="Default.aspx">Principal</a></li>
                  <li><a href="Category.aspx">Crear Base de datos</a></li>
-                 <li><a href="#">Crear Tabla</a></li>
+                 <li><a href="Creacion_Tabla.aspx">Crear Tabla</a></li>
                  <li><a href="#">Crear relaciones</a></li>
              </ul>
              <div class="pull-right">
